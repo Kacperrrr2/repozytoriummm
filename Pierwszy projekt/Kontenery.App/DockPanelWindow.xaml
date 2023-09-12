@@ -1,0 +1,16 @@
+﻿<Window x:Class="Kontenery.App.DockPanelWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Kontenery.App"
+        mc:Ignorable="d"
+        Title="DockPanelWindow" Height="450" Width="800">
+    <DockPanel LastChildFill="False">
+        <Button Content="Pierwszy przycisk" DockPanel.Dock="Top"/>
+        <Button Content="Drugi przycisk" DockPanel.Dock="Left"/>
+        <Button Content="Trzeci przycisk" DockPanel.Dock="Right"/>
+        <Button Content="Czwarty przycisk"  DockPanel.Dock="Bottom"/>
+        <Button Content="Piąty przycisk" DockPanel.Dock="Left"/>
+    </DockPanel>
+</Window>
